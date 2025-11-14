@@ -2,6 +2,8 @@
 
 A Next.js + TypeScript + shadcn/ui application for uploading CSV running logs, validating data, and visualizing both overall and per-runner performance through charts, metrics, and tables.
 
+![image alt](https://github.com/at-sultan/CSV-Runner-Dashboard/blob/7c6a2ddc13a189ec7c649827f01d9a36e439054f/Dashboard.png)
+
 ## 📝 1.Project Overview
 
 This project was built as part of a CSV data ingestion + visualization challenge.
