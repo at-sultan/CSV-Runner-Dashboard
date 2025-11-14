@@ -1,8 +1,8 @@
-#📊 CSV Runner Dashboard
+📊 #CSV Runner Dashboard
 
 A Next.js + TypeScript + shadcn/ui application for uploading CSV running logs, validating data, and visualizing both overall and per-runner performance through charts, metrics, and tables.
 
-📝 1. Project Overview
+##📝 1.Project Overview
 
 This project was built as part of a CSV data ingestion + visualization challenge.
 The goal:
