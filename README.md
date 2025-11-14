@@ -235,6 +235,15 @@ You will receive a clear error/warning toast and detailed messages.
 
 - Smooth interactions
 
+**🔢 Note on Sorting (Runner Statistics Table)**
+
+The Runner Statistics table is automatically sorted in descending order by Total Miles.
+This means:
+
+- The runner with the highest total mileage appears first
+
+- All other runners follow in descending order
+
 ### ⚠️ Limitations
 
 - Processing is entirely client-side (large CSVs may slow down parsing)
