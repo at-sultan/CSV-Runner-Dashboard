@@ -78,7 +78,7 @@ To run this project locally:
 Requirement &	Version
 - Node.js	18.x or later
 - npm	9.x or later
-- No database required	Client-only app
+- No database required
 
 Optional tools for development:
 
@@ -95,8 +95,9 @@ npm install
 
 A .env.example file is included.
 Copy it:
-
+```bash
 cp .env.example .env
+```
 
 
 This application does **not** require external keys, but the .env file is kept for:
@@ -125,6 +126,7 @@ Then visit:
 👉 http://localhost:3000
 
 **Verification Steps (matches the acceptance checklist)**
+
 **1. Upload a CSV file**
 
 Use drag-and-drop or file picker.
@@ -167,7 +169,8 @@ Try uploading:
 
 You will receive a clear error/warning toast and detailed messages.
 
-## 📎 Sample CSV (📥 copy & use)
+## 📎 Sample CSV (📥 download & use)
+
 
 
 
