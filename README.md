@@ -22,6 +22,7 @@ The goal:
 ✔ Use minimal external dependencies
 
 
+
 The app uses:
 
 **Next.js App Router**
@@ -170,9 +171,9 @@ Try uploading:
 You will receive a clear error/warning toast and detailed messages.
 
 ## 📎 Sample CSV (📥 download & use)
+[sample1.csv1](https://github.com/at-sultan/CSV-Runner-Dashboard/blob/b3f3b2a3b198832c0f5552e56477119e6a183b33/miles_tracker_large.csv)
 
-
-
+[sample2.csv](https://github.com/at-sultan/CSV-Runner-Dashboard/blob/b3f3b2a3b198832c0f5552e56477119e6a183b33/miles_tracker_massive.csv)
 
 ✔ Valid
 
@@ -181,20 +182,25 @@ You will receive a clear error/warning toast and detailed messages.
 ✔ Date + numeric miles
 
 ## 🖼️ Screenshots
-**Dashboard Overview**
+### Dashboard Overview:
 
-**Runner Statistics Table**
+![barGraph alt](https://github.com/at-sultan/CSV-Runner-Dashboard/blob/af5e2d7b120a40c56b643da95907947e3f3b94b8/BarGraph.png)
 
-**Individual Runner Chart**
 
-Save your actual images inside:
-/screenshots/dashboard-1.png, etc.
+### Runner Statistics Table:
+
+![RunnerStatistics alt](https://github.com/at-sultan/CSV-Runner-Dashboard/blob/af5e2d7b120a40c56b643da95907947e3f3b94b8/RunnerStatistics.png)
+
+
+### Individual Runner Chart:
+
+![Individual alt](https://github.com/at-sultan/CSV-Runner-Dashboard/blob/af5e2d7b120a40c56b643da95907947e3f3b94b8/IndividualRunner.png)
 
 ## 🚀 6. Features & Limitations
 ### ✅ Features
 **CSV Upload + Parsing**
 
-- **Drag-and-drop**
+- Drag-and-drop
   
 - Required column validation
   
@@ -267,11 +273,6 @@ project-root/
 │
 ├── hooks/
 │   └── use-toast.ts               # Toast/notification hook (shadcn)
-│
-├── public/
-│   └── favicon.ico                # App icon
-│
-├── .bolt/                         # Bolt build system (auto-generated)
 │
 ├── .env.example                   # Example environment file
 ├── .gitignore                     # Git ignore rules
@@ -347,44 +348,44 @@ This README covers all required items:
 
 ### ✔ Functionality & Acceptance Criteria (35%)
 
-CSV parsing
+- CSV parsing
 
-Overall + per-runner charts
+- Overall + per-runner charts
 
-Metric correctness
+- Metric correctness
 
-Error handling documented
+- Error handling documented
 
 ### ✔ Code Quality & Structure (20%)
 
-Architecture section
+- Architecture section
 
-Folder roles explained
+- Folder roles explained
 
 ### ✔ UX & UI (20%)
 
-Accessibility section
+- Accessibility section
 
-Screenshots
+- Screenshots
 
-Modern design notes
+- Modern design notes
 
 ### ✔ README & Dev Experience (15%)
 
-Setup steps
+- Setup steps
 
-Detailed verification instructions
+- Detailed verification instructions
 
-Sample CSV
+- Sample CSV
 
-Clear prerequisites
+- Clear prerequisites
 
 ### ✔ Polish, Edge Cases, Validation (10%)
 
-Negative miles
+- Negative miles
 
-Missing headers
+- Missing headers
 
-Wrong file type
+- Wrong file type
 
-Empty file
+- Empty file
