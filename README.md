@@ -19,6 +19,7 @@ The goal:
 
 ✔ Use minimal external dependencies
 
+
 The app uses:
 
 **Next.js App Router**
@@ -33,6 +34,7 @@ The app uses:
 
 **Custom CSV validation logic**
 
+
 ## 📌 2. Assumptions
 
 The following assumptions guided the design:
@@ -45,23 +47,23 @@ The following assumptions guided the design:
 
 - miles must be a non-negative number
 
-**Dataset size is moderate**
+**2.Dataset size is moderate**
 
 - A few hundred or thousand rows are fine
 
 - No server-side processing needed
 
-**No backend or database required**
+**3.No backend or database required**
 
 - All parsing and computation happen client-side
 
 - No authentication needed
 
-**Runners in sample data are placeholders**
+**4.Runners in sample data are placeholders**
 
 - Names are sample values, not tied to real individuals
 
-**Charts must update dynamically**
+**5.Charts must update dynamically**
 
 - When clicking a runner
 
